@@ -20,10 +20,10 @@ The notebook where we apply logistic regression without cross validation with El
 
 ## Method 3) BERT
 
+## Older versions of the codes
 
----old----
-## kaggle_preprocess.py
+### kaggle_preprocess.py
 Preprocessing'i yaptigimiz ve BlueHive uzerinden run ettigimiz kod.
 
-## congressional_tweets_project_code_istanbul.ipynb
+### congressional_tweets_project_code_istanbul.ipynb
 Kodun orijinal hali ayni zamanda logistic regression da yapilan kod.
