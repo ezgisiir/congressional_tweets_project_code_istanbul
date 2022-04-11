@@ -6,6 +6,9 @@ This is a README file that explains the steps that we followed for the Kaggle pr
 
 ### svm.ipynb
 
+This is the notebook wehere we process the hashtags column with tfidf method and then, apply classification using SVM. The accuracy returned by Kaggle is 0.85501.
+
+## Method 2) Logistic Regression with ElasticNet
 
 ## prepare_data.ipynb
 
@@ -14,6 +17,9 @@ This is the notebook that prepares X_train.csv, y_train.csv, X_test.csv and Id.c
 ## logistic_regression_elasticnet.ipynb
 
 The notebook where we apply logistic regression without cross validation with ElasticNet.
+
+## Method 3) BERT
+
 
 ---old----
 ## kaggle_preprocess.py
