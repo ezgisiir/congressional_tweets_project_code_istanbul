@@ -38,6 +38,14 @@ Because even logistic_regression_tfidf.ipynb takes so much time to complete, we 
 
 ## Method 4) Naive Bayes
 
+## Method 5) Weighted Average Ensemble Learning
+
+### ensemble_learning_weighted.ipynb
+
+Here, we apply an ensemble learning method where we take a weighted average of all the y_test values returned by our different models with the weight being the accuracy returned by the Kaggle competition. [1]
+
+This notebook is also a summary of all the models that we could successfully run.
+
 ## Older versions of the codes
 
 ### kaggle_preprocess.py
@@ -47,3 +55,9 @@ Earlier version of prepare_data.py code being run on BlueHive.
 ### congressional_tweets_project_code_istanbul.ipynb
 
 Early version of the code that combines preprocessing and logistic regression with ElasticNet.
+
+There are also other notebooks in the github page that are earlier versions of the related model codes.
+
+## References
+
+[1] Caliskan, Cantay. DSCC 465: Introduction to Statistical Machine Learning, Spring 2022, University of Rochester, Rochester NY.
