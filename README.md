@@ -24,11 +24,15 @@ This notebook was the hardest one to complete because cleaning large text data, 
 
 The notebook where we apply **logistic regression without cross validation with ElasticNet**. It reads the training and test data sets and applies the model. Although it is simple, it could not be run because no preprocessing run involving bag of words or dimensionality reduction could be applied to the test data due to time and memory limits.
 
-### logistic_regression_tfidf
+### logistic_regression_tfidf.ipynb
 
 Regarding the computational burdens of bag of words, and the main purpose of Word2vec being to consider the similarity in the text, we use **tfidf** as a faster method to vectorize the text data. Then, we apply **logistic regression with no cross validation but with ElasticNet** to fit a model on the training data set and have predictions for the test data set. 
 
 One better version of this code could be to clean the text here better as we do in prepare_data.ipynb before applying tfidf, however, even the presented version of the notebook here took almost a day to complete the run. Such a version of the code could be submitted over BlueHive to be run for a few days if we had more time.
+
+### logistic_regression_tfidf_hashtags.ipynb
+
+Because even logistic_regression_tfidf.ipynb takes so much time to complete, we instead simplify it by using the **hashtags** column but this time we apply **cross validation with 10 folds**.
 
 ## Method 3) BERT
 
