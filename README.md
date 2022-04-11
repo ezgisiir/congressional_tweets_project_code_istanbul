@@ -6,11 +6,11 @@ This is a README file that explains the steps that we followed for the Kaggle pr
 
 ### svm.ipynb
 
-This is the notebook wehere we process the hashtags column with tfidf method and then, apply classification using SVM. The accuracy returned by Kaggle is 0.85501.
+This is the notebook wehere we process the **hashtags** column with **tfidf** method and then, apply classification using **SVM**. The accuracy returned by Kaggle is **0.85501**.
 
 ### svm_tfidf.ipynb
 
-This is the notebook wehere we process the full_text column with tfidf method and then, apply classification using SVM. The accuracy returned by Kaggle is 0.89122.
+This is the notebook wehere we process the **full_text** column with **tfidf** method and then, apply classification using **SVM**. The accuracy returned by Kaggle is **0.89122**.
 
 ## Method 2) Logistic Regression with ElasticNet
 
