@@ -24,6 +24,8 @@ The notebook where we apply **logistic regression without cross validation with 
 
 ## Method 3) BERT
 
+## Method 4) Naive Bayes
+
 ## Older versions of the codes
 
 ### kaggle_preprocess.py
