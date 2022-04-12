@@ -59,15 +59,15 @@ This is the notebook wehere we process the **text_clean** column (cleaned tweets
 
 ### NaiveBayes_hashtags.ipynb
 
-This is the notebook wehere we process the **hashtags** column with **tfidf** method and then, apply classification using **Naive Bayes**. The accuracy returned by Kaggle is **0.85547.
+This is the notebook wehere we process the **hashtags** column with **tfidf** method and then, apply classification using **Naive Bayes**. The accuracy returned by Kaggle is **0.85547**.
 
 ### NaiveBayes_fulltext_tfidf.ipynb
 
-This is the notebook wehere we process the **full_text** column with **tfidf** method and then, apply classification using **Naive Bayes**. The accuracy returned by Kaggle is **0.84228
+This is the notebook wehere we process the **full_text** column with **tfidf** method and then, apply classification using **Naive Bayes**. The accuracy returned by Kaggle is **0.84228**.
 
 ### NaiveBayes_clean_text_dfidf.ipynb
 
-This is the notebook wehere we process the **text_clean** column (cleaned tweets after using nltk library) with **tfidf** method and then, apply classification using **SVM**. The accuracy returned by Kaggle is **0.84005
+This is the notebook wehere we process the **text_clean** column (cleaned tweets after using nltk library) with **tfidf** method and then, apply classification using **SVM**. The accuracy returned by Kaggle is **0.84005**.
 
 
 ## Method 5) Weighted Average Ensemble Learning
