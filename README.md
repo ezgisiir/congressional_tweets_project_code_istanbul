@@ -2,6 +2,12 @@
 
 This is a README file that explains the steps that we followed for the Kaggle project in order of that the notebooks ran.
 
+## Descriptive Statistics and LDA
+
+### Kaggle_Descriptive_Analysis.ipynb
+
+Descriptive statistics and LDA to training data set.
+
 ## Method 1) Support Vector Machines (SVM)
 
 ### svm.ipynb
@@ -36,7 +42,33 @@ Because even logistic_regression_tfidf.ipynb takes so much time to complete, we 
 
 ## Method 3) BERT
 
+### BERT_hashtag.ipynb
+
+This is the notebook wehere we process the **hashtag** column with **5 epochs** method and then, apply classification using **BERT**. 
+
+### BERT_full_text.ipynb
+
+This is the notebook wehere we process the **full_text** column with **5 epochs** method and then, apply classification using **BERT**. 
+
+### BERT_clean_text.ipynb
+
+This is the notebook wehere we process the **text_clean** column (the cleaned tweets after using nltk library) with **5 epochs** method and then, apply classification using **BERT**. 
+
+
 ## Method 4) Naive Bayes
+
+### NaiveBayes_hashtags.ipynb
+
+This is the notebook wehere we process the **hashtags** column with **tfidf** method and then, apply classification using **Naive Bayes**. The accuracy returned by Kaggle is **0.85547.
+
+### NaiveBayes_fulltext_tfidf.ipynb
+
+This is the notebook wehere we process the **full_text** column with **tfidf** method and then, apply classification using **Naive Bayes**. The accuracy returned by Kaggle is **0.84228
+
+### NaiveBayes_clean_text_dfidf.ipynb
+
+This is the notebook wehere we process the **text_clean** column (the cleaned tweets after using nltk library) ith **tfidf** method and then, apply classification using **SVM**. The accuracy returned by Kaggle is **0.84005
+
 
 ## Method 5) Weighted Average Ensemble Learning
 
