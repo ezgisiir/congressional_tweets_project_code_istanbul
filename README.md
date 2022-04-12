@@ -52,7 +52,7 @@ This is the notebook wehere we process the **full_text** column with **5 epochs*
 
 ### BERT_clean_text.ipynb
 
-This is the notebook wehere we process the **text_clean** column (the cleaned tweets after using nltk library) with **5 epochs** method and then, apply classification using **BERT**. 
+This is the notebook wehere we process the **text_clean** column (cleaned tweets after using nltk library) with **5 epochs** method and then, apply classification using **BERT**. 
 
 
 ## Method 4) Naive Bayes
@@ -67,7 +67,7 @@ This is the notebook wehere we process the **full_text** column with **tfidf** m
 
 ### NaiveBayes_clean_text_dfidf.ipynb
 
-This is the notebook wehere we process the **text_clean** column (the cleaned tweets after using nltk library) ith **tfidf** method and then, apply classification using **SVM**. The accuracy returned by Kaggle is **0.84005
+This is the notebook wehere we process the **text_clean** column (cleaned tweets after using nltk library) with **tfidf** method and then, apply classification using **SVM**. The accuracy returned by Kaggle is **0.84005
 
 
 ## Method 5) Weighted Average Ensemble Learning
