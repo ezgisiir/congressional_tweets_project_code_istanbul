@@ -6,7 +6,7 @@ This is a README file that explains the steps that we followed for the Kaggle pr
 
 ### Kaggle_Descriptive_Analysis.ipynb
 
-Descriptive statistics and LDA to training data set.
+Descriptive statistics and LDA to the training data set.
 
 ## Method 1) Support Vector Machines (SVM)
 
