@@ -78,6 +78,10 @@ Here, we apply an ensemble learning method where we take a weighted average of a
 
 This notebook is also a summary of all the models that we could successfully run.
 
+## .png files
+
+They are the 2-D plots returned by PCA, spectral embedding, and t-SNE for the training data set. As can be seen, they generally provide a clear distinction between the two classes although they are performed on a stratified 1% of the data set. Dimensionality reduction could have helped to improve our models if we had enough computational power.
+
 ## Older versions of the codes
 
 ### Data Preprocessing.ipynb
